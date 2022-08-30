@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  /* remise a zero des bordure du site */
+  margin: 0;
+  /* marge exterieur */
+  /* padding: 0; */
+  /* marge interrieur */
+  box-sizing: border-box;
+  font-family: "Raleway", "Arial", "Helvetica";
+  /* prametrage font du site */
+}
+
+:root {
+  --colorGray: #f2f2f2;
+  --colorBlue: #0065fc;
+  --colorLightBlue: #deebff;
+}
+a {
+  color: inherit;
+  /* couleur heriter de la div parent */
+  text-decoration: none;
+  /* supression du trait de soulignage */
+}
+
+#logoBooki {
+  margin-right: auto; /* marge a droite automatique */
+  padding: 0 2rem; /* padding gauche et droite */
+  width: 160px;
+}
+
+nav {
+  /* stylisation de mon menu de navigation */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 1.5rem; /* ajoute une marge interne entre chaque a de ma navigation */
+  border-top: 2px solid transparent; /* evite le decalage au survol */
+}
+nav a:hover {
+  border-top: 2px solid var(--colorBlue); /* cree une ligne bleu au survol du menu */
+  color: var(--colorBlue);
+}
+#subMenu {
+  display: flex;
+}
+main {
+  max-width: 1320px;
+  margin-right: auto;
+}
+/*SEARCH BAR*/
+#rechercheLocation {
+  padding: 0 2rem;
+}
+#rechercheLocation h1,
+#rechercheLocation p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+}
+.searchForm i {
+  background-color: var(--colorGray);
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  border: 1px solid var(--colorGray);
+}
+.searchForm input {
+  border: 1px solid var(--colorGray);
+}
+.searchForm * {
+  padding: 1rem 1.5rem;
+}
+.searchForm input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.searchForm .vaChercher {
+  background-color: var(--colorBlue);
+  color: whitesmoke;
+  border-color: var(--colorBlue);
+  font-weight: bold;
+  border-radius: 0 1rem 1rem 0;
+}
+.fa-search {
+  display: none;
+}
+
+/* fFILTRES */
+.filter-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.filter {
+  border: 2px solid var(--colorGray);
+
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.filter .fas {
+  color: var(--colorBlue);
+  background-color: var(--colorLightBlue);
+  border-radius: 50%;
+  margin: -2px;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter span {
+  font-weight: bold;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.filter:hover {
+  background-color: #f2f7ff;
+  transform: scale(1.01);
+}
+/*SEARCH RESULT*/
+.searchResult {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.fas.fa-info {
+  color: var(--colorBlue);
+  font-weight: bolder;
+  border: 2px solid var(--colorGray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+}
+#catchPhrase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 2rem;
+}
+
+/*ROOM LIST*/
+.accommodationList {
+  display: flex;
+  gap: 1rem;
+}
+.accommodationList > div {
+  border-radius: 1rem;
+  background-color: var(--colorGray);
+  padding: 1rem;
+  border: 1px solid #bada55;
+}
+.accommodationList .room h3 {
+  padding: 1rem 0 2rem 0;
+}
+.accommodationList a {
+  font-weight: bolder;
+}
+.accommodationList .room {
+  flex-basis: 66%;
+}
+
+.accommodationList .popularRoom {
+  flex-basis: 33%;
+}
+.accommodationList .popularRoom .fa {
+  display: inline-flex;
+}
+
+/*ROOM LIST*/
+.roomList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+/* ROOM CARD*/
+.roomCard .stars .ratingIconBlue {
+  color: var(--colorBlue);
+}
+.roomCard .stars .ratingIconGrey {
+  color: lightslategrey;
+}
+
+.roomCard {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  /* object-fit: cover; */
+  box-shadow: 0 0 16px #0000002e;
+  flex-grow: 1;
+}
+
+.roomCard img {
+  border-radius: 1rem 1rem 0 0;
+  height: 10rem;
+  min-width: 100%;
+  object-fit: cover;
+}
+.test {
+  display: flex;
+}
+
+/*POPULAR ROOM*/
+.popularRoomList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  border: 2px solid brown;
+}
+
+.popularRoomList > div {
+  border: 1px solid goldenrod;
+}
+
+/*
+POPULAR ROOM CARD
+*/
+#popularRoomSection {
+  border: 3px solid navy;
+}
+.popularRoomCard {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 16px #0000002e;
+  /* TODO ici gerer le possition des mes card  */
+}
+.popularRoomTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0 2rem 0;
+  border: 1px solid lightcoral;
+}
+.popularRoomCard img {
+  border-radius: 16px 16px 0 0;
+  height: 176px;
+  width: 176px;
+}
+.infoPopularRoomCard {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  padding: 1rem;
+}
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconBlue {
+  color: var(--colorBlue);
+}
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconGrey {
+  color: lightslategrey;
+}
+/*
+--ActivitiesCards--
+*/
+/* #activityOnMarseilleSection {
+  border: 3px solid red;
+}
+.activityOnMarseille {
+  display: flex;
+  border-radius: 1rem;
+  border: 2px solid greenyellow;
+  background-color: var(--colorGray);
+  padding: 0 0 2rem 2rem;
+}
+
+.getOutMarseilleCard {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 16px #0000002e;
+  row-gap: 2rem;
+  justify-content: space-evenly;
+}
+
+.imagesActivitiesCards {
+  width: 10rem;
+  border-radius: 1rem 1rem 0 0;
+}
+#titleSectionAM {
+  flex-wrap: nowrap;
+} */
+/*ACTION ON HOVER*/
+.roomCard:hover {
+  transform: scale(1.01);
+  cursor: grab;
+}
+.popularRoomCard:hover {
+  transform: scale(1.01);
+  cursor: grab;
+}
+.getOutMarseilleCard:hover {
+  transform: scale(1.01);
+  cursor: grab;
+}
+/* 
+--footer--
+ */
+
+footer {
+  border: 1px solid crimson;
+  background-color: var(--colorGray);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 32px;
+  margin-top: 32px;
+}
+.A {
+  border: 1px solid red;
+}
+.B {
+  border: 1px solid yellow;
+}
+.C {
+  border: 1px solid green;
+}
+
+/*
+--MEDIA QUERIES--
+*/
+
+@media (max-width: 768px) {
+  #logoBooki {
+    margin-left: calc(100% / 3);
+  }
+
+  #subMenu {
+    /* proprieter flex equibvalent a la width: ; */
+    flex-basis: 100%;
+    /*   utilisation de la proprieté order pour le faire passser au dessous */
+    /*order: 1;*/
+  }
+  #subMenu a {
+    /* proprieter flex equibvalent a la width: ; */
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 3px solid var(--colorGray);
+  }
+
+  #subMenu a:hover {
+    /* proprieter flex equibvalent a la width: ; */
+    border-bottom: 3px solid var(--colorBlue);
+    border-top-color: transparent;
+  }
+  /*
+  #signup:hover {
+    border-color: transparent;
+  }*/
+  /*SEARCH BAR*/
+  i.fa-search {
+    display: block;
+    background-color: var(--colorBlue);
+    color: whitesmoke;
+    border-color: var(--colorBlue);
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: -20px;
+  }
+
+  .searchForm .vaChercher {
+    display: none;
+  }
+
+  /*ROOM LIST*/
+  .accommodationList {
+    flex-direction: column-reverse;
+  }
+  /* .accommodationList .room {
+    background-color: red;
+  }
+  .accommodationList .popularRoom {
+    background-color: red;
+  } */
+
+  /*POPULAR ROOM*/
+  .popularRoomList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
