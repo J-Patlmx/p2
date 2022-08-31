@@ -154,6 +154,7 @@ main {
   justify-content: center;
   width: 2rem;
   height: 2rem;
+  margin-top: 16px;
 }
 #catchPhrase {
   display: flex;
@@ -173,9 +174,10 @@ main {
 /*ROOM LIST*/
 
 #accommodationSection {
-  min-width: 60%;
-  padding: 2rem 1rem;
+  /* min-width: 60%;
+  padding: 2rem 1rem;*/
   background: red;
+  flex-basis: 66%;
 }
 
 /* ROOM CARD*/
@@ -205,9 +207,10 @@ POPULAR ROOM CARD
 */
 
 #popularRoomSection {
-  min-width: 30%;
-  padding: 2rem 1rem;
+  /* min-width: 30%;
+  padding: 2rem 1rem; */
   background: green;
+  flex-basis: 33%;
 }
 .popularRoomCard {
   display: flex;
@@ -215,7 +218,6 @@ POPULAR ROOM CARD
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: 0 0 16px #0000002e;
-  /* TODO ici gerer le possition des mes card  */
 }
 #popularRoomTitle {
   display: flex;
@@ -354,24 +356,13 @@ footer {
   }
 
   /*ROOM LIST*/
-
-  /* #accommodationSection {
-    min-width: 60%;
-    padding: 2rem 1rem;
-    background: red;
-  } */
-
-  /* .accommodationList {
-    flex-direction: column-reverse;
-  } */
-  /* .accommodationList .room {
-    background-color: red;
+  .searchResultSection {
+    flex-direction: column;
   }
-  .accommodationList .popularRoom {
-    background-color: red;
-  } */
+
   #popularRoomSection {
     background-color: yellow;
+    order: -1;
   }
   #accommodationSection {
     background-color: palegreen;
