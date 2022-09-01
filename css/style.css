@@ -165,6 +165,7 @@ main {
 .searchResultSection {
   display: flex;
   gap: 32px;
+  margin-bottom: 32px;
 }
 .searchResultSection > div {
   /* border: 2px solid red; */
@@ -274,8 +275,9 @@ main {
 /*
 --ActivitiesCards--
 */
-/* #activityOnMarseilleSection {
+#activityOnMarseilleSection {
   border: 3px solid red;
+  margin-bottom: 32px;
 }
 .activityOnMarseille {
   display: flex;
@@ -302,7 +304,7 @@ main {
 }
 #titleSectionAM {
   flex-wrap: nowrap;
-} */
+}
 
 /*ACTION ON HOVER*/
 .roomCard:hover {
@@ -327,8 +329,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 32px;
-  margin-top: 32px;
+  /* padding-top: 32px;
+  margin-top: 32px; */
   /* TODO: gerer la width du footer Descktop */
   /* max-width: 80%; */
 }
