@@ -179,7 +179,7 @@ main {
 .accomodationRoomList {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 22px;
   justify-content: space-around;
   margin-bottom: 16px;
 }
