@@ -219,14 +219,42 @@ main {
 }
 .popularRoomList div {
   /*  */
-  border: 1px solid navy;
+  /* border: 1px solid navy; */
 }
 
 #popularRoomTitle {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid lightcoral;
+  border-bottom: 16px;
+}
+.popularRoomCard {
+  /*  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 16px;
+  border: 2px solid red;
+  padding: 8px;
+  /*  */
+}
+.popularRoomCardImg {
+  /*  */
+  flex-direction: row;
+  border-radius: 16px 0 0 16px;
+  width: 144px;
+  height: 100%;
+}
+
+.popularRoomCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 /* GESTION DE LA GUERRE DES ETOILES */
 
@@ -238,10 +266,10 @@ main {
   color: lightslategrey;
 }
 /********** popular Stars **********/
-.popularRoomCard .infoPopularRoomCard .stars .ratingIconBlue {
+.popularRoomCard .popularRoomCardInfo .stars .ratingIconBlue {
   color: var(--colorBlue);
 }
-.popularRoomCard .infoPopularRoomCard .stars .ratingIconGrey {
+.popularRoomCard .popularRoomCardInfo .stars .ratingIconGrey {
   color: lightslategrey;
 }
 
@@ -380,6 +408,9 @@ footer {
     margin-bottom: 1rem;
     flex-direction: row;
   } */
+  .popularRoomList {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
