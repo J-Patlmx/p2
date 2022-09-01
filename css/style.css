@@ -167,7 +167,7 @@ main {
   gap: 32px;
 }
 .searchResultSection > div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: var(--colorGray);
   padding: 8px;
   border-radius: 16px;
@@ -183,17 +183,18 @@ main {
   justify-content: space-around;
   margin-bottom: 16px;
 }
-.accomodationRoomList div {
-  /*  */
+/* .accomodationRoomList div {
+  
   border: 1px solid blue;
   flex-basis: calc(33%-16px);
-}
+} */
 .roomCard {
   /*  */
   background-color: white;
   border-radius: 16px;
   padding: 8px;
   box-shadow: var(--boxShadow);
+  /* flex-grow: 1; */
 }
 
 .roomCardImg {
@@ -201,6 +202,7 @@ main {
   height: 160px;
   width: 240px;
   object-fit: cover;
+  /* flex-grow: 1; */
 }
 .roomCard p,
 .roomCard h3 {
@@ -233,7 +235,7 @@ main {
   background-color: white;
   box-shadow: var(--boxShadow);
   border-radius: 16px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 8px;
   /*  */
 }
