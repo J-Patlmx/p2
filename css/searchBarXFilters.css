@@ -1,11 +1,6 @@
 /*SEARCH BAR*/
-#rechercheLocation {
-  padding: 0 32px;
-}
-#rechercheLocation h1,
-#rechercheLocation p {
-  margin-bottom: 16px;
-  margin-top: 16px;
+#mainTitle {
+  margin-bottom: 32px;
 }
 
 .searchForm {
