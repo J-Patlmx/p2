@@ -1,0 +1,26 @@
+/* 
+--footer--
+ */
+/* TODO: footer style */
+
+footer {
+  border: 1px solid crimson;
+  background-color: var(--colorGray);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 16% auto;
+  margin-right: 16% auto;
+  /* padding-top: 32px;
+    margin-top: 32px; */
+  /* max-width: 80%; */
+}
+.A {
+  border: 1px solid red;
+}
+.B {
+  border: 1px solid yellow;
+}
+.C {
+  border: 1px solid green;
+}

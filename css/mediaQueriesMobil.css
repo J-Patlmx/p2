@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+  #logoBooki {
+    margin-left: calc(100% / 3);
+  }
+
+  #subMenu {
+    /* proprieter flex equibvalent a la width: ; */
+    flex-basis: 100%;
+  }
+  #subMenu a {
+    /* proprieter flex equibvalent a la width: ; */
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 3px solid var(--colorGray);
+  }
+
+  #subMenu a:hover {
+    /* proprieter flex equibvalent a la width: ; */
+    border-bottom: 3px solid var(--colorBlue);
+    border-top-color: transparent;
+  }
+
+  /*SEARCH BAR*/
+  i.fa-search {
+    display: block;
+    background-color: var(--colorBlue);
+    color: whitesmoke;
+    border-color: var(--colorBlue);
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: -20px;
+  }
+  .searchForm {
+    margin-left: 24px;
+  }
+  .searchForm .vaChercher {
+    display: none;
+  }
+
+  /*ROOM LIST*/
+  .searchResultSection {
+    flex-direction: column;
+  }
+
+  #popularRoomSection {
+    background-color: yellow;
+    order: -1;
+  }
+  .popularRoomList {
+    /*  */
+    flex-direction: row;
+  }
+  #accommodationSection {
+    background-color: palegreen;
+  }
+  /*POPULAR ROOM*/
+  .popularRoomList {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 16px; */
+    justify-content: space-around;
+    margin-bottom: 16px;
+    flex-direction: row;
+  }
+
+  /* TODO: fix info */
+  /* .popularRoomList {
+      flex-direction: column;
+    } */
+  /* test */
+
+  .popularRoomCard {
+    flex-grow: 1;
+  }
+  .roomCard {
+    flex-grow: 1;
+  }
+  .roomCardImg {
+    width: 100%;
+  }
+  .getOutMarseilleCard {
+    margin-bottom: 16px;
+  }
+  .activityOnMarseille {
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    /* padding: 24px; */
+  }
+  .marseilleActivitiesCardImg {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: top;
+  }
+  footer {
+    flex-direction: column;
+  }
+}

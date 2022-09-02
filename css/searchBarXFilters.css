@@ -1,0 +1,108 @@
+/*SEARCH BAR*/
+#rechercheLocation {
+  padding: 0 32px;
+}
+#rechercheLocation h1,
+#rechercheLocation p {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.searchForm i {
+  background-color: var(--colorGray);
+  border-radius: 16px 0 0 16px;
+  text-align: center;
+  border: 4px solid var(--colorGray);
+}
+.searchForm input {
+  border: 1px solid var(--colorGray);
+}
+.searchForm * {
+  padding: 16px 24px;
+}
+.searchForm input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.searchForm .vaChercher {
+  background-color: var(--colorBlue);
+  color: whitesmoke;
+  border-color: var(--colorBlue);
+  font-weight: bold;
+  border-radius: 0 16px 16px 0;
+}
+.fa-search {
+  display: none;
+}
+
+/* FILTRES  */
+.filter-list {
+  display: flex;
+  align-items: center;
+  gap: 16px 32px;
+  flex-wrap: wrap;
+
+  margin-bottom: 32px;
+}
+
+.filter {
+  border: 2px solid var(--colorGray);
+
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.filter .fas {
+  color: var(--colorBlue);
+  background-color: var(--colorLightBlue);
+  border-radius: 50%;
+  margin: -2px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter span {
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.filter:hover {
+  background-color: #f2f7ff;
+  transform: scale(1.01);
+}
+/*SEARCH RESULT*/
+.searchResult {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.fas.fa-info {
+  color: var(--colorBlue);
+  font-weight: bolder;
+  border: 2px solid var(--colorGray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-top: 16px;
+}
+#catchPhrase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 32px;
+}

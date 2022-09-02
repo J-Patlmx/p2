@@ -1,0 +1,34 @@
+/*
+--ActivitiesCards--
+*/
+
+/* TODO:WIP*************************************************************/
+#activityOnMarseilleSection {
+  border: 3px solid red;
+  margin-bottom: 32px;
+}
+.activityOnMarseille {
+  display: flex;
+  border-radius: 16px;
+  border: 2px solid greenyellow;
+  background-color: var(--colorGray);
+}
+
+.getOutMarseilleCard {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+  padding: 8px;
+  box-shadow: 0 0 16px #0000002e;
+  row-gap: 32px;
+  justify-content: space-around;
+}
+
+.marseilleActivitiesCardImg {
+  width: 160px;
+  border-radius: 16px 16px 0 0;
+}
+#titleSectionAM {
+  flex-wrap: nowrap;
+}
