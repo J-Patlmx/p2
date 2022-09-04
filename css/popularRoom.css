@@ -21,7 +21,6 @@
   background-color: white;
   float: none;
   border-radius: 16px;
-  border: 2px solid navy;
   box-shadow: var(--boxShadow);
 }
 .imgPopularRoomCard {

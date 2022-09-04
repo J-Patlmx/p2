@@ -13,6 +13,7 @@
   box-sizing: border-box;
   font-family: "Raleway", "Arial", "Helvetica";
   /* prametrage font du site */
+  /* overflow-x: hidden; */
 }
 header {
   max-width: 1320px;
