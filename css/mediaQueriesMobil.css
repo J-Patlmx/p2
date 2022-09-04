@@ -74,6 +74,9 @@
     flex-grow: 1;
     margin: 0;
   }
+  .imgPopularRoomCard img {
+    width: 144px;
+  }
   .roomCard {
     flex-grow: 1;
   }
@@ -102,5 +105,8 @@
   }
   .footerSection {
     flex-direction: column;
+  }
+  footer {
+    background-color: var(--colorGray);
   }
 }
