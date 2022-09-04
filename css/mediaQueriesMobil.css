@@ -45,6 +45,7 @@
   #popularRoomSection {
     background-color: yellow;
     order: -1;
+    margin-top: 0;
   }
   .popularRoomList {
     /*  */
@@ -71,6 +72,7 @@
 
   .popularRoomCard {
     flex-grow: 1;
+    margin: 0;
   }
   .roomCard {
     flex-grow: 1;
@@ -81,11 +83,16 @@
   .getOutMarseilleCard {
     margin-bottom: 16px;
   }
+  #activityOnMarseilleSection {
+    border: none;
+    margin-bottom: 32px;
+  }
+
   .activityOnMarseille {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: white;
-    /* padding: 24px; */
+    border: none;
   }
   .marseilleActivitiesCardImg {
     width: 100%;
@@ -93,7 +100,7 @@
     object-fit: cover;
     object-position: top;
   }
-  footer {
+  .footerSection {
     flex-direction: column;
   }
 }

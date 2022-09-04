@@ -17,7 +17,7 @@
   <body>
     <header>
       <!--MENU -->
-      <nav>
+      <nav id="navHeader">
         <img id="logoBooki" src="images/logo/Booki@3x.png" alt="logo booki" />
         <div id="subMenu">
           <a href="#activityOnMarseilleSection">Activités</a>
@@ -27,8 +27,10 @@
     </header>
 
     <main>
-      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-      <p>En plein centre-ville ou en pleine nature</p>
+      <section id="mainTitle">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre-ville ou en pleine nature</p>
+      </section>
 
       <!--SEARCH BAR-->
       <form class="searchForm">
@@ -198,12 +200,13 @@
             <h2>Les plus populaires</h2>
             <i class="fas fa-star"></i>
           </div>
+
           <div class="popularRoomList">
             <div class="popularRoomCard">
               <a href="#">
                 <img
                   class="popularRoomCardImg"
-                  src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                   alt="photo de la chambre de l'Hôtel le soleil du matin"
                 />
                 <div class="popularRoomCardInfo">
@@ -216,9 +219,10 @@
                     <i class="fas fa-star ratingIconBlue"></i>
                     <i class="fas fa-star ratingIconBlue"></i>
                   </p>
-                
-              </a></div>
+                </div>
+              </a>
             </div>
+
             <div class="popularRoomCard">
               <a href="#">
                 <img
@@ -236,9 +240,10 @@
                     <i class="fas fa-star ratingIconBlue"></i>
                     <i class="fas fa-star ratingIconBlue"></i>
                   </p>
-                
-              </a></div>
+                </div>
+              </a>
             </div>
+
             <div class="popularRoomCard">
               <a href="#">
                 <img
@@ -256,15 +261,15 @@
                     <i class="fas fa-star ratingIconBlue"></i>
                     <i class="fas fa-star ratingIconBlue"></i>
                   </p>
-                
-              </a></div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </section>
 
       <!-- activitiesCard -->
-<section id="activityOnMarseilleSection">
+      <section id="activityOnMarseilleSection">
         <div class="activityOnMarseille">
           <h3 id="titleSectionAM">Activitées à Marseille</h3>
 
@@ -333,23 +338,29 @@
     </main>
 
     <footer>
-      <div class="A">
-        <div>
-          <h3>À Propos</h3>
-        </div>
-        <div>Fonctionnement du site</div>
-        <div>Conditions generales de ventes</div>
-        <div>Données et confidentialité</div>
-      </div>
-      <div class="B">
-        <div><h3>Nos Hebergements</h3></div>
-        <div>Chartes qualité</div>
-        <div>Soumettre votre hôtel</div>
-      </div>
-      <div class="C">
-        <div><h3>Assistance</h3></div>
-        <div>Centre d'aide</div>
-        <div>Nous contacter</div>
+      <div class="footerSection">
+        <nav class="navFooter">
+          <h4 class="h4NavFooter">A Propos</h4>
+          <ul class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Fonctionnement du site </a></li class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Conditions generales de ventes</a></li class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Données et confidentialité</a></li>
+          </ul>
+        </nav>
+        <nav class="navFooter">
+          <h4 class="h4NavFooter">Nos Hebergements</h4>
+          <ul class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Chartes qualité </a></li class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Soumettre votre hôtel</a></li>
+          </ul>
+        </nav>
+        <nav class="navFooter">
+          <h4 class="h4NavFooter">Assistance</h4>
+          <ul class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Centre d'aide</a></li class="ulNavFooter">
+            <li class="liNavFooter"><a class="aLiNavFooter" href="#"> Nous contacter</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </body>

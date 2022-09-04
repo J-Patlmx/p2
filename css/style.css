@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(searchBarXFilters.css);
 @import url(searchResultSection.css);
+@import url(popularRoom.css);
 @import url(activitiesOnMarseille.css);
 @import url(footer.css);
 @import url(mediaQueriesMobil.css);
@@ -48,7 +49,10 @@ main {
   transform: scale(1.01);
   cursor: grab;
 }
-
+footer {
+  max-width: 1320px;
+  margin: auto;
+}
 /*
---MEDIA QUERIES--
+--TEST--
 */

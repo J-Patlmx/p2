@@ -2,25 +2,13 @@
 --footer--
  */
 /* TODO: footer style */
-
-footer {
-  border: 1px solid crimson;
-  background-color: var(--colorGray);
+.footerSection {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 16% auto;
-  margin-right: 16% auto;
-  /* padding-top: 32px;
-    margin-top: 32px; */
-  /* max-width: 80%; */
+  justify-content: space-between;
 }
-.A {
-  border: 1px solid red;
+.liNavFooter {
+  list-style-type: none;
 }
-.B {
-  border: 1px solid yellow;
-}
-.C {
-  border: 1px solid green;
+.ulNavFooter {
+  margin-left: -40px;
 }

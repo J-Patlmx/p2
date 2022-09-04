@@ -21,75 +21,24 @@
   justify-content: space-around;
   margin-bottom: 16px;
 }
-.accomodationRoomList div {
-  border: 1px solid blue;
-  flex-basis: calc(33%-16px);
-}
+
 .roomCard {
   /*  */
   background-color: white;
   border-radius: 16px;
   padding: 8px;
   box-shadow: var(--boxShadow);
-  /* flex-grow: 1; */
 }
 
 .roomCardImg {
   border-radius: 16px 16px 0 0;
   height: 160px;
-  width: 240px;
+  width: 245px;
   object-fit: cover;
-  /* flex-grow: 1; */
 }
 .roomCard p,
 .roomCard h3 {
   margin: 4px;
-}
-/* popularRoomSection */
-#popularRoomSection {
-  flex-basis: 33%;
-}
-
-.popularRoomList {
-  /*  */
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-#popularRoomTitle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 16px;
-}
-.popularRoomCard {
-  /*  */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 16px;
-  background-color: white;
-  box-shadow: var(--boxShadow);
-  border-radius: 16px;
-  /* border: 2px solid red; */
-  padding: 8px;
-  /*  */
-}
-.popularRoomCardImg {
-  /*  */
-  flex-direction: row;
-  border-radius: 16px 0 0 16px;
-  width: 144px;
-  height: 100%;
-}
-
-.popularRoomCardInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 /* GESTION DE LA GUERRE DES ETOILES */
@@ -99,12 +48,5 @@
   color: var(--colorBlue);
 }
 .roomCard .stars .ratingIconGrey {
-  color: lightslategrey;
-}
-/********** popular Stars **********/
-.popularRoomCard .popularRoomCardInfo .stars .ratingIconBlue {
-  color: var(--colorBlue);
-}
-.popularRoomCard .popularRoomCardInfo .stars .ratingIconGrey {
   color: lightslategrey;
 }
