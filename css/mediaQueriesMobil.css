@@ -100,7 +100,7 @@
     object-fit: cover;
     object-position: top;
   }
-  footer {
+  .footerSection {
     flex-direction: column;
   }
 }

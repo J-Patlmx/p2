@@ -2,34 +2,13 @@
 --footer--
  */
 /* TODO: footer style */
-
-footer {
-  background-color: var(--colorGray);
+.footerSection {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.A {
-  /* border: 1px solid red; */
-  margin-left: 32px;
+.liNavFooter {
+  list-style-type: none;
 }
-.B {
-  /* border: 1px solid yellow; */
-  margin-left: 32px;
-}
-.C {
-  /* border: 1px solid green; */
-  margin-left: 32px;
-}
-.A p {
-  /* border: 1px solid red; */
-  gap: 16px;
-}
-.B p {
-  /* border: 1px solid yellow; */
-  gap: 16px;
-}
-.C p {
-  /* border: 1px solid green; */
-  gap: 16px;
+.ulNavFooter {
+  margin-left: -40px;
 }

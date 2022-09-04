@@ -1,0 +1,57 @@
+/* popularRoomSection */
+#popularRoomSection {
+  flex-basis: 33%;
+}
+
+.popularRoomList {
+  /*  */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#popularRoomTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 16px;
+}
+.popularRoomCard {
+  /*  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 16px;
+  padding: 8px;
+  margin: 32px 0 32px 16px;
+  height: 144px;
+  width: 90%;
+  /* TODO WIP fix height */
+}
+.popularRoomCardImg {
+  /*  */
+  flex-direction: row;
+  border-radius: 16px 0 0 16px;
+  width: 144px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popularRoomCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/********** popular Stars **********/
+.popularRoomCard .popularRoomCardInfo .stars .ratingIconBlue {
+  color: var(--colorBlue);
+}
+.popularRoomCard .popularRoomCardInfo .stars .ratingIconGrey {
+  color: lightslategrey;
+}
