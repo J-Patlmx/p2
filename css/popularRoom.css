@@ -41,36 +41,9 @@
   flex-direction: column;
   line-height: 0px;
 }
-/* .popularRoomCardInfo p {
-  margin-bottom: 32px;
-} */
-/* .popularRoomCard {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 16px;
-  background-color: white;
-  box-shadow: var(--boxShadow);
-  border-radius: 16px;
-  padding: 8px;
-  margin: 32px 0 32px 16px;
-  height: 144px;
-  width: 90%;
-} */
-/* .popularRoomCardImg {
-  border-radius: 16px 0 0 16px;
-
-  height: 130px;
-  object-fit: cover;
-} */
-
-/* .popularRoomCardInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-} */
+.h3Modified {
+  font-size: medium;
+}
 
 /********** popular Stars **********/
 .popularRoomCard .popularRoomCardInfo .stars .ratingIconBlue {

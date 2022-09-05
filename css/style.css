@@ -57,3 +57,36 @@ footer {
 /*
 --TEST--
 */
+.activities1 {
+  border: 2px solid navy;
+  display: flex;
+}
+.getOutMarseilleCard1 {
+  border: 2px solid crimson;
+}
+
+.getOutMarseilleCard2 {
+  border: 2px solid blueviolet;
+}
+
+.getOutMarseilleCard3 {
+  border: 2px solid gold;
+}
+.activities2 {
+  border: 2px solid yellowgreen;
+  display: flex;
+}
+.getOutMarseilleCard4 {
+  border: 2px solid crimson;
+}
+
+.getOutMarseilleCard5 {
+  border: 2px solid blueviolet;
+}
+
+.getOutMarseilleCard6 {
+  border: 2px solid gold;
+}
+.marseilleActivitiesCardImg {
+  width: 150px;
+}
