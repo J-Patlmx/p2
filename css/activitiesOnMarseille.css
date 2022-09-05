@@ -14,7 +14,7 @@
 .activityOnMarseille {
   display: flex;
   background-color: white;
-  /* gap: 32px; */
+  gap: 16px 16px;
 }
 
 /* 
@@ -125,5 +125,4 @@ luneSurLAutre2 {
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-left: 16px;
 }
