@@ -8,14 +8,12 @@
     flex-basis: 100%;
   }
   #subMenu a {
-    /* proprieter flex equibvalent a la width: ; */
     flex-basis: 50%;
     text-align: center;
     border-bottom: 3px solid var(--colorGray);
   }
 
   #subMenu a:hover {
-    /* proprieter flex equibvalent a la width: ; */
     border-bottom: 3px solid var(--colorBlue);
     border-top-color: transparent;
   }

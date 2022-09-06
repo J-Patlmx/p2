@@ -46,7 +46,7 @@
 }
 
 .filter {
-  border: 2px solid var(--colorGray);
+  border: 3px solid var(--colorGray);
 
   border-radius: 32px;
   display: flex;

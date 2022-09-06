@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 16px;
 }
 
 #popularRoomTitle {
@@ -19,30 +20,35 @@
 .popularRoomCard {
   display: flex;
   background-color: white;
-  float: none;
+  /* float: none; */
   border-radius: 16px;
   box-shadow: var(--boxShadow);
+  margin-bottom: 24px;
 }
 .imgPopularRoomCard {
-  display: inline-flex;
+  display: flex;
   float: left;
 }
 .imgPopularRoomCard img {
-  width: 160px;
-  height: 144px;
+  width: 176px;
+  height: 160px;
   padding: 4px;
   object-fit: cover;
   border-radius: 16px 0 0 16px;
 }
 
 .popularRoomCardInfo {
-  display: inline-flex;
-  float: right;
+  display: flex;
   flex-direction: column;
-  line-height: 0px;
 }
-.h3Modified {
-  font-size: medium;
+.popularRoomCardInfo .stars {
+  margin-top: 16px;
+}
+
+.testH3PopularRoomCard {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: normal;
 }
 
 /********** popular Stars **********/
