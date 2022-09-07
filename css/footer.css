@@ -9,7 +9,20 @@
 }
 .liNavFooter {
   list-style-type: none;
+  margin-bottom: 16px;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .ulNavFooter {
-  margin-left: -40px;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.h4NavFooter {
+  padding-top: 32px;
 }

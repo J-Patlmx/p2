@@ -29,7 +29,10 @@
     margin-left: -20px;
   }
   .searchForm {
-    margin-left: 24px;
+    /* display: flex;
+    align-items: center;
+    margin-bottom: 32px; */
+    justify-content: center;
   }
   .searchForm .vaChercher {
     display: none;
@@ -62,12 +65,6 @@
     flex-direction: row;
   }
 
-  /* TODO: fix info */
-  /* .popularRoomList {
-      flex-direction: column;
-    } */
-  /* test */
-
   .popularRoomCard {
     flex-grow: 1;
     margin: 0;
@@ -81,9 +78,7 @@
   .roomCardImg {
     width: 100%;
   }
-  .getOutMarseilleCard {
-    margin-bottom: 16px;
-  }
+
   #activityOnMarseilleSection {
     border: none;
     margin-bottom: 32px;
@@ -91,20 +86,33 @@
 
   .activityOnMarseille {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
     border: none;
+  }
+  .getOutMarseilleCard {
+    margin-bottom: 16px;
+  }
+  /*.activities1 .activities2 {
+     flex-direction: row;
+  }
+  .luneSurLAutre1 .luneSurLAutre2 {
+    flex-direction: rcollum;
   }
   .marseilleActivitiesCardImg {
     width: 100%;
     height: 190px;
     object-fit: cover;
     object-position: top;
-  }
+  } */
   .footerSection {
     flex-direction: column;
   }
   footer {
     background-color: var(--colorGray);
+  }
+  .navFooter {
+    width: 100%;
+    padding: 32px;
   }
 }

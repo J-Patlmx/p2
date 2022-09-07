@@ -9,6 +9,8 @@
 #activityOnMarseilleSection {
   background-color: white;
   margin-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .activityOnMarseille {
   display: flex;
