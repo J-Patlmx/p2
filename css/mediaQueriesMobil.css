@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   #logoBooki {
-    margin-left: calc(100% / 3);
+    margin: auto;
   }
 
   #subMenu {
@@ -40,7 +40,9 @@
   .searchForm .vaChercher {
     display: none;
   }
-
+  #h2Filters {
+    width: 100%;
+  }
   /*ROOM LIST*/
   .searchResultSection {
     flex-direction: column;
@@ -58,6 +60,10 @@
   #accommodationSection {
     background-color: palegreen;
   }
+
+  #popularRoomSection {
+    padding: 16px;
+  }
   /*POPULAR ROOM*/
   .popularRoomList {
     display: flex;
@@ -67,7 +73,9 @@
     margin-bottom: 16px;
     flex-direction: row;
   }
-
+  #h2accomodation {
+    padding-left: 0;
+  }
   .popularRoomCard {
     flex-grow: 1;
     margin: 0;
@@ -83,34 +91,21 @@
   }
 
   #activityOnMarseilleSection {
-    border: none;
-    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .activityOnMarseille {
     flex-wrap: wrap;
-    flex-direction: row;
-    background-color: white;
-    border: none;
   }
   .getOutMarseilleCard {
     margin-bottom: 16px;
   }
-  /*.activities1 .activities2 {
-     flex-direction: row;
-  }
-  .luneSurLAutre1 .luneSurLAutre2 {
-    flex-direction: rcollum;
-  }
-  .marseilleActivitiesCardImg {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-    object-position: top;
-  } */
+
   .footerSection {
     flex-direction: column;
   }
+
   footer {
     background-color: var(--colorGray);
   }
