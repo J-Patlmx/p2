@@ -1,6 +1,7 @@
 /* popularRoomSection */
 #popularRoomSection {
   flex-basis: 33%;
+  padding: 24px;
 }
 
 .popularRoomList {
@@ -16,6 +17,8 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .popularRoomCard {
   display: flex;

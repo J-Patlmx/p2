@@ -53,8 +53,7 @@ main {
   cursor: grab;
 }
 footer {
-  max-width: 1366px;
-  margin: 32px auto;
+  max-width: auto;
 }
 /*
 --TEST--

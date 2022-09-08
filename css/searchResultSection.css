@@ -13,26 +13,30 @@
 /* accommodationSection */
 #accommodationSection {
   flex-basis: 66%;
+  padding: 24px;
 }
 .accomodationRoomList {
   display: flex;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 16px;
   justify-content: space-around;
   margin-bottom: 16px;
 }
-
+#h2accomodation {
+  padding-left: 16px;
+}
 .roomCard {
   /*  */
   background-color: white;
   border-radius: 16px;
-  padding: 8px;
+  padding: 4px;
   box-shadow: var(--boxShadow);
+  margin-bottom: 16px;
 }
 
 .roomCardImg {
   border-radius: 16px 16px 0 0;
-  height: 128px;
+  height: 154px;
   width: 245px;
   object-fit: cover;
 }
@@ -40,7 +44,9 @@
 .roomCard h3 {
   margin: 4px;
 }
-
+#showMore {
+  margin-left: 16px;
+}
 /* GESTION DE LA GUERRE DES ETOILES */
 
 /* ********* room Stars *********** */

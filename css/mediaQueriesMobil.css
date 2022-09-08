@@ -34,6 +34,9 @@
     margin-bottom: 32px; */
     justify-content: center;
   }
+  .destination {
+    margin: 0;
+  }
   .searchForm .vaChercher {
     display: none;
   }
