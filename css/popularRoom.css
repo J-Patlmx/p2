@@ -1,15 +1,16 @@
 /* popularRoomSection */
 #popularRoomSection {
-  flex-basis: 33%;
-  padding: 24px;
+  /* flex-basis: 33%;
+  padding: 24px; */
+  flex: 1;
 }
 
 .popularRoomList {
   /*  */
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-bottom: 16px;
+  /* gap: 16px;
+  margin-bottom: 16px; */
 }
 
 #popularRoomTitle {
@@ -19,34 +20,47 @@
   border-bottom: 16px;
   padding-left: 16px;
   padding-right: 16px;
+  border: 2px solid navy;
 }
 .popularRoomCard {
   display: flex;
   background-color: white;
-  /* float: none; */
   border-radius: 16px;
   box-shadow: var(--boxShadow);
-  margin-bottom: 24px;
+  border: 2px solid goldenrod;
+  flex: 1;
+
+  /* margin-bottom: 24px; */
 }
 .imgPopularRoomCard {
+  border: 2px solid crimson;
+
   display: flex;
   float: left;
+  width: 40%;
+  height: 100%;
 }
+
+/* gerer la hauteur de limage pour harmonie */
+
 .imgPopularRoomCard img {
-  width: 176px;
-  height: 160px;
+  /* width: 176px;
+  height: 160px; */
   padding: 4px;
   object-fit: cover;
   border-radius: 16px 0 0 16px;
+  width: 100%;
 }
 
 .popularRoomCardInfo {
   display: flex;
   flex-direction: column;
+  width: 59%;
+  border: 2px solid green;
 }
-.popularRoomCardInfo .stars {
+/* .popularRoomCardInfo .stars {
   margin-top: 12px;
-}
+} */
 
 .testH3PopularRoomCard {
   font-size: 16px;

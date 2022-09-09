@@ -1,0 +1,58 @@
+#activityOnMarseilleSection {
+  background-color: white;
+  margin-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.activityOnMarseille {
+  display: flex;
+  background-color: white;
+  gap: 32px 32px;
+}
+#titleSectionAM {
+  width: 100%;
+}
+.h4 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 8px;
+}
+.aJamaisDesTricheurs {
+  display: flex;
+  flex: 4;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.onlyOneImgCard {
+  border: 2px solid cornflowerblue;
+  border-radius: 16px;
+  flex: 1;
+  box-shadow: var(--boxShadow);
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.onlyOneImgCard img {
+  border: 2px solid cornflowerblue;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.doubleImgCard {
+  border: 2px solid chocolate;
+  border-radius: 16px;
+  flex: 1;
+  box-shadow: var(--boxShadow);
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.doubleImgCard img {
+  border: 2px solid chocolate;
+  border-radius: 16px;
+  width: 100%;
+}

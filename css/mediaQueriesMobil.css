@@ -80,9 +80,9 @@
     flex-grow: 1;
     margin: 0;
   }
-  .imgPopularRoomCard img {
+  /* .imgPopularRoomCard img {
     width: 144px;
-  }
+  } */
   .roomCard {
     flex-grow: 1;
   }
@@ -98,10 +98,17 @@
   .activityOnMarseille {
     flex-wrap: wrap;
   }
-  .getOutMarseilleCard {
+  /* .getOutMarseilleCard {
     margin-bottom: 16px;
+  } */
+  .aJamaisDesTricheurs {
+    flex-direction: column;
+    width: 100%;
   }
-
+  .doubleImgCard .onlyOneImgCard {
+    flex-direction: column;
+    object-fit: cover;
+  }
   .footerSection {
     flex-direction: column;
   }

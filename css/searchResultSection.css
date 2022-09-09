@@ -12,8 +12,9 @@
 }
 /* accommodationSection */
 #accommodationSection {
-  flex-basis: 66%;
-  padding: 24px;
+  /* flex-basis: 66%;
+  padding: 24px; */
+  flex: 3;
 }
 .accomodationRoomList {
   display: flex;
