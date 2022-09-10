@@ -6,7 +6,7 @@
 /* #activityOnMarseilleSection {
   
 } */
-#activityOnMarseilleSection {
+/* #activityOnMarseilleSection {
   background-color: white;
   margin-bottom: 32px;
   padding-left: 16px;
@@ -16,12 +16,13 @@
   display: flex;
   background-color: white;
   gap: 32px 32px;
-}
+} */
 
 /* 
 --ACTIVITIES ON MARSEILLE PART1--
  */
-.activities1 {
+
+/* .activities1 {
   display: flex;
   gap: 32px;
 }
@@ -64,12 +65,12 @@
   width: 304px;
   object-fit: cover;
   border-radius: 16px 16px 0 0;
-}
+} */
 /* 
 --ACTIVITIES ON MARSEILLE PART2--
  */
 
-.activities2 {
+/* .activities2 {
   display: flex;
   gap: 32px;
 }
@@ -120,8 +121,8 @@
   justify-content: left;
   font-size: 18px;
   font-weight: bolder;
-  /* margin-bottom: 32px; */
-}
+   margin-bottom: 32px; 
+} */
 /* .getOutMarseilleCard {
   margin-bottom: 16px;
 } */

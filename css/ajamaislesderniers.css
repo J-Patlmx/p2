@@ -56,3 +56,8 @@
   border-radius: 16px;
   width: 100%;
 }
+
+.getOutMarseilleCard:hover {
+  transform: scale(1.01);
+  cursor: grab;
+}
