@@ -6,6 +6,18 @@
 /* #activityOnMarseilleSection {
   
 } */
+/* .luneSurLAutre1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.luneSurLAutre2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+} */
 /* #activityOnMarseilleSection {
   background-color: white;
   margin-bottom: 32px;
@@ -47,12 +59,6 @@
   width: 312px;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
-}
-.luneSurLAutre1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 32px;
 }
 .getOutMarseilleCard2 .marseilleActivitiesCardImg {
   height: 176px;
@@ -97,12 +103,7 @@
   width: 312px;
   border-radius: 16px 16px 0 0;
 }
-.luneSurLAutre2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 32px;
-}
+
 .getOutMarseilleCard5 .marseilleActivitiesCardImg {
   height: 136px;
   width: 304px;
@@ -121,7 +122,7 @@
   justify-content: left;
   font-size: 18px;
   font-weight: bolder;
-   margin-bottom: 32px; 
+  margin-bottom: 32px; 
 } */
 /* .getOutMarseilleCard {
   margin-bottom: 16px;
