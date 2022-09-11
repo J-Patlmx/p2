@@ -27,6 +27,7 @@
   background-color: white;
   border-radius: 16px;
   box-shadow: var(--boxShadow);
+  height: 120px;
   /* border: 2px solid goldenrod; */
   flex: 1;
   margin-bottom: 32px;
@@ -55,7 +56,8 @@
   flex-direction: column;
   width: 59%;
   height: 100%;
-  padding: 16px;
+  /* padding: 16px; */
+  justify-content: space-around;
 }
 
 .testH3PopularRoomCard {

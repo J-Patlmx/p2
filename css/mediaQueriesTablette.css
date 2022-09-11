@@ -1,9 +1,11 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
   #popularRoomSection {
-    background-color: aqua;
+    background-color: var(--colorGray);
   }
-
+  .popularRoomCard {
+    flex-grow: 1;
+  }
   #accommodationSection {
-    background-color: blueviolet;
+    background-color: var(--colorGray);
   }
 }

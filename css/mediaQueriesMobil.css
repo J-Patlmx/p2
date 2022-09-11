@@ -47,28 +47,28 @@
   }
 
   #accommodationSection {
-    background-color: palegreen;
+    background-color: white;
   }
 
   /* POPULAR ROOM SECTION */
   #popularRoomSection {
-    padding: 16px;
-    background-color: yellow;
+    margin: 0 -32px;
+    background-color: var(--colorGray);
     order: -1;
-    margin-top: 0;
   }
-  .stars {
-    margin-top: 0px;
-    /* font-size: 14px; */
+  .popularRoomCard {
+    /* border: 2px solid goldenrod; */
+    flex-grow: 1;
   }
-  /* .popularRoomList {
-    flex-direction: row;
-  } */
+  .searchResultSection > div {
+    border-radius: 0px;
+  }
 
   /* ACCOMODATION ROOM SECTION */
 
   #h2accomodation {
     padding-left: 0;
+    width: 100%;
   }
   .roomCard {
     flex-grow: 1;
