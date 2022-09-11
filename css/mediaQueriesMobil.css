@@ -5,7 +5,8 @@
 
   #subMenu {
     /* proprieter flex equibvalent a la width: ; */
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
+    width: 100%;
   }
   #subMenu a {
     flex-basis: 50%;
@@ -29,9 +30,6 @@
     margin-left: -20px;
   }
   .searchForm {
-    /* display: flex;
-    align-items: center;
-    margin-bottom: 32px; */
     justify-content: center;
   }
   .destination {
@@ -43,46 +41,35 @@
   #h2Filters {
     width: 100%;
   }
-  /*ROOM LIST*/
+
   .searchResultSection {
     flex-direction: column;
   }
 
-  #popularRoomSection {
-    background-color: yellow;
-    order: -1;
-    margin-top: 0;
-  }
-  .popularRoomList {
-    /*  */
-    flex-direction: row;
-  }
   #accommodationSection {
     background-color: palegreen;
   }
 
+  /* POPULAR ROOM SECTION */
   #popularRoomSection {
     padding: 16px;
+    background-color: yellow;
+    order: -1;
+    margin-top: 0;
   }
-  /*POPULAR ROOM*/
-  .popularRoomList {
-    display: flex;
-    flex-wrap: wrap;
-    /* gap: 16px; */
-    justify-content: space-around;
-    margin-bottom: 16px;
-    flex-direction: column;
+  .stars {
+    margin-top: 0px;
+    /* font-size: 14px; */
   }
+  /* .popularRoomList {
+    flex-direction: row;
+  } */
+
+  /* ACCOMODATION ROOM SECTION */
+
   #h2accomodation {
     padding-left: 0;
   }
-  .popularRoomCard {
-    flex-grow: 1;
-    margin: 0;
-  }
-  /* .imgPopularRoomCard img {
-    width: 144px;
-  } */
   .roomCard {
     flex-grow: 1;
   }
@@ -90,31 +77,29 @@
     width: 100%;
   }
 
-  #activityOnMarseilleSection {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  /* ACTIVITIES ON MARSEILLE */
 
-  .activityOnMarseille {
-    flex-wrap: wrap;
-  }
-  /* .getOutMarseilleCard {
-    margin-bottom: 16px;
-  } */
   .aJamaisDesTricheurs {
     flex-direction: column;
+    width: auto;
+  }
+
+  .onlyOneImgCard img {
+    height: auto;
     width: 100%;
   }
-  .doubleImgCard .onlyOneImgCard {
-    flex-direction: column;
-    object-fit: cover;
+  doubleImgCard img {
+    height: 100%;
+    width: 100%;
   }
-  .footerSection {
-    flex-direction: column;
-  }
+
+  /* FOOTER */
 
   footer {
     background-color: var(--colorGray);
+  }
+  .footerSection {
+    flex-direction: column;
   }
   .navFooter {
     width: 100%;

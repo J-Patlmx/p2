@@ -18,7 +18,7 @@
   /* overflow-x: hidden; */
 }
 header {
-  max-width: 1366px;
+  max-width: auto;
   margin: auto;
 }
 :root {
@@ -35,10 +35,10 @@ a {
 }
 
 main {
-  max-width: 1366px;
+  max-width: auto;
   margin: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /*ACTION ON HOVER*/

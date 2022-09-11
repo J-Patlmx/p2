@@ -4,18 +4,21 @@
 /* TODO: footer style */
 .footerSection {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--colorGray);
 }
 .liNavFooter {
   list-style-type: none;
-  margin-bottom: 16px;
+  padding-top: 16px;
 }
 
 .navFooter {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-left: 64px;
+  /* padding-right: 32px; */
+  margin-right: 256px;
 }
 .ulNavFooter {
   display: flex;
