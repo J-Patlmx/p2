@@ -20,7 +20,7 @@
 .accomodationRoomList {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 15px;
   justify-content: space-around;
   margin-bottom: 16px;
 }

@@ -72,6 +72,7 @@
   }
   .roomCard {
     flex-grow: 1;
+    width: 100%;
   }
   .roomCardImg {
     width: 100%;
@@ -83,13 +84,23 @@
     flex-direction: column;
     width: auto;
   }
+  .onlyOneImgCard {
+    /* height: 240px; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  doubleImgCard {
+    /* height: 240px; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 
   .onlyOneImgCard img {
-    height: auto;
+    height: 240px;
     width: 100%;
   }
   doubleImgCard img {
-    height: 100%;
+    height: 240px;
     width: 100%;
   }
 

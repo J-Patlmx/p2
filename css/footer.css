@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--colorGray);
+  padding-bottom: 32px;
 }
 .liNavFooter {
   list-style-type: none;
