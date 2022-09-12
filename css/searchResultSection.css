@@ -36,11 +36,11 @@
   box-shadow: var(--boxShadow);
   margin-bottom: 16px;
 }
-
+/* TODO ICI vwidth 245 */
 .roomCardImg {
   border-radius: 16px 16px 0 0;
   height: 154px;
-  width: 245px;
+  width: 280px;
   object-fit: cover;
 }
 .roomCard p,
