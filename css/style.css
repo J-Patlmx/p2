@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(header.css);
 @import url(searchBarXFilters.css);
-@import url(searchResultSection.css);
+@import url(accomodation.css);
 @import url(popularRoom.css);
 @import url(footer.css);
 @import url(mediaQueriesMobil.css);
@@ -15,16 +15,13 @@
   padding: 0;
   font-family: "Raleway", "Arial", "Helvetica";
   /* prametrage font du site */
-  /* overflow-x: hidden; */
 }
-header {
-  max-width: auto;
-  margin: auto;
-}
+
 :root {
   --colorGray: #f2f2f2;
   --colorBlue: #0065fc;
   --colorLightBlue: #deebff;
+  --colorWhite: white;
   --boxShadow: 0 0 16px #0000002e;
 }
 a {
@@ -34,26 +31,25 @@ a {
   /* supression du trait de soulignage */
 }
 
+/* SKULLETOR */
+
+header {
+  max-width: auto;
+  margin: auto;
+}
+
 main {
   max-width: auto;
   margin: auto;
   padding-left: 32px;
   padding-right: 32px;
 }
-
-/*ACTION ON HOVER*/
-.roomCard:hover {
-  transform: scale(1.01);
-  cursor: grab;
+#accomodationANDpopularSection {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 32px;
 }
-.popularRoomCard:hover {
-  transform: scale(1.01);
-  cursor: grab;
-}
-
 footer {
   max-width: auto;
+  margin: auto;
 }
-/*
---TEST--
-*/

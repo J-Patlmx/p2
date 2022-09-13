@@ -1,78 +1,85 @@
-/* popularRoomSection */
-#popularRoomSection {
-  /* flex-basis: 33%;
-  padding: 24px; */
+/* 
+POPULAIRES DROITE
+*/
+
+#rightSide {
   flex: 1;
+  background-color: var(--colorGray);
+  flex-wrap: wrap;
+  align-content: space-between;
+  border-radius: 32px;
 }
-
-.popularRoomList {
-  /*  */
+#titlePopular {
   display: flex;
-  flex-direction: column;
-  /* gap: 16px;
-  margin-bottom: 16px; */
-}
-
-#popularRoomTitle {
-  display: flex;
-  align-items: center;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  margin-bottom: 32px;
   justify-content: space-between;
+}
 
-  padding: 32px 16px 32px 16px;
-  /* border: 2px solid navy; */
+#popularRoomCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 32px;
 }
 
 .popularRoomCard {
   display: flex;
+  flex-direction: row;
   background-color: white;
-  border-radius: 16px;
+  border-radius: 32px;
   box-shadow: var(--boxShadow);
   height: 120px;
-  /* border: 2px solid goldenrod; */
+  padding: 4px;
   flex: 1;
   margin-bottom: 32px;
 }
+#popularRoomCards {
+  /*  */
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px;
+    margin-bottom: 16px; */
+}
 .imgPopularRoomCard {
-  /* border: 2px solid crimson; */
-  display: inline-flex;
+  display: flex;
   float: left;
   width: 39%;
   height: 100%;
   object-fit: cover;
 }
-
-/* gerer la hauteur de limage pour harmonie */
-
 .imgPopularRoomCard img {
+  border-radius: 32px 0 0 32px;
   width: 100%;
   height: 160px;
-  padding: 4px;
-  object-fit: cover;
-  border-radius: 16px 0 0 16px;
 }
 
-.popularRoomCardInfo {
+.infoPopularRoomCard {
   display: flex;
   flex-direction: column;
   width: 59%;
   height: 100%;
-  /* padding: 16px; */
+  align-items: flex-start;
   justify-content: space-around;
+  padding-left: 8px;
 }
 
-.testH3PopularRoomCard {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: normal;
-}
-.stars {
-  margin-top: 32px;
-  flex-wrap: nowrap;
-}
-/********** popular Stars **********/
-.popularRoomCard .popularRoomCardInfo .stars .ratingIconBlue {
+/* T1. T1. T1. T1. T1T1. T1. T1T1. */
+
+/* ***** popular room Stars ***** */
+
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconBlue {
   color: var(--colorBlue);
 }
-.popularRoomCard .popularRoomCardInfo .stars .ratingIconGrey {
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconGrey {
   color: lightslategrey;
+}
+/*Animation HOVER*/
+.popularRoomCard:hover {
+  transform: scale(1.02);
+  cursor: grab;
 }

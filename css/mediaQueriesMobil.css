@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #logoBooki {
     margin: auto;
   }
@@ -41,35 +41,30 @@
   #h2Filters {
     width: 100%;
   }
-
-  .searchResultSection {
+  /* ------------------------------------------------------------------ */
+  #accomodationANDpopularSection {
     flex-direction: column;
   }
 
-  #accommodationSection {
-    background-color: white;
-  }
-
   /* POPULAR ROOM SECTION */
-  #popularRoomSection {
-    margin: 0 -32px;
-    background-color: var(--colorGray);
+  #rightSide {
+    /* background-color: var(--colorGray); */
+    border: 3px solid deeppink;
+    background-color: purple;
     order: -1;
+    width: 100%;
   }
   .popularRoomCard {
-    /* border: 2px solid goldenrod; */
     flex-grow: 1;
-  }
-  .searchResultSection > div {
-    border-radius: 0px;
   }
 
   /* ACCOMODATION ROOM SECTION */
 
-  #h2accomodation {
-    padding-left: 0;
-    width: 100%;
+  #leftSide {
+    background-color: deeppink;
+    border: 3px solid rebeccapurple;
   }
+
   .roomCard {
     flex-grow: 1;
     width: 100%;
