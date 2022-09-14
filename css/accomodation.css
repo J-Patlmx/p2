@@ -4,15 +4,17 @@ HÉBERGEMENT GAUCHE
 #leftSide {
   flex: 3;
   background-color: var(--colorGray);
-  flex-wrap: wrap;
-  align-content: space-between;
+  /* flex-wrap: wrap;
+  align-content: space-between; */
+  /* ! ajout dun padding  */
+  padding: 16px;
   border-radius: 32px;
 }
 #titleAccomodation {
   display: flex;
   width: 100%;
   margin-bottom: 32px;
-  padding-left: 64px;
+  padding-left: 16px;
   padding-top: 32px;
 }
 .accomodationCards {
@@ -20,24 +22,27 @@ HÉBERGEMENT GAUCHE
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 32px;
-  /* margin: 32px; */
-  /* padding: 32px; */
+  max-width: 100%;
 }
 .roomCard {
   background-color: white;
   padding: 4px;
   border-radius: 32px;
   box-shadow: var(--boxShadow);
-  width: 30%;
-  height: 100%;
+  width: 600px;
+  max-width: 30%;
+  height: auto;
   object-fit: cover;
+  object-position: center;
 }
 
 .imgRoomCard img {
   border-radius: 32px 32px 0 0;
   width: 100%;
-  height: auto;
-  height: 180px;
+  /* height: auto; */
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 .infoRoomCard {
   display: flex;
