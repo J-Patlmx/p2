@@ -2,7 +2,7 @@
 HÉBERGEMENT GAUCHE
 */
 #leftSide {
-  flex: 3;
+  flex: 2;
   background-color: var(--colorGray);
   /* flex-wrap: wrap;
   align-content: space-between; */
@@ -67,8 +67,16 @@ HÉBERGEMENT GAUCHE
   padding-top: 32px;
   padding-left: 16px;
 }
+#showMore {
+  border-bottom: 2px solid transparent;
+}
 /*Animation HOVER*/
 .roomCard:hover {
   transform: scale(1.01);
   cursor: grab;
+}
+#showMore:hover {
+  color: var(--colorBlue);
+
+  border-bottom: 2px solid var(--colorLightBlue);
 }
