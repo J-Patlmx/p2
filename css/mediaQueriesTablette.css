@@ -4,14 +4,11 @@
   }
 
   #rightSide {
-    border: 3px solid greenyellow;
-    background-color: olive;
     order: -1;
     width: 100%;
   }
 
   #leftSide {
-    background-color: yellowgreen;
-    border: 3px solid olivedrab;
+    background-color: var(--colorLightBlue);
   }
 }

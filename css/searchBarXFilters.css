@@ -27,7 +27,7 @@
 
 .searchForm .vaChercher {
   background-color: var(--colorBlue);
-  color: white;
+  color: var(--colorWhite);
   border-color: var(--colorBlue);
   font-weight: bold;
   border-radius: 0 16px 16px 0;

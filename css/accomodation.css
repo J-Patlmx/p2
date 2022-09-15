@@ -4,11 +4,8 @@ HÉBERGEMENT GAUCHE
 #leftSide {
   flex: 2;
   background-color: var(--colorGray);
-  /* flex-wrap: wrap;
-  align-content: space-between; */
-  /* ! ajout dun padding  */
   padding: 16px;
-  border-radius: 32px;
+  border-radius: 16px;
 }
 #titleAccomodation {
   display: flex;
@@ -21,11 +18,10 @@ HÉBERGEMENT GAUCHE
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 32px;
-  max-width: 100%;
+  gap: 16px;
 }
 .roomCard {
-  background-color: white;
+  background-color: var(--colorWhite);
   padding: 4px;
   border-radius: 32px;
   box-shadow: var(--boxShadow);
@@ -40,7 +36,7 @@ HÉBERGEMENT GAUCHE
   border-radius: 32px 32px 0 0;
   width: 100%;
   /* height: auto; */
-  height: 200px;
+  height: 120px;
   object-fit: cover;
   object-position: center;
 }
@@ -50,7 +46,9 @@ HÉBERGEMENT GAUCHE
   padding-left: 16px;
   justify-content: space-evenly;
 }
-
+.infoRoomCard > * {
+  margin: 5px 0;
+}
 /* GESTION DE LA GUERRE DES ETOILES */
 
 /* ********* room Stars *********** */

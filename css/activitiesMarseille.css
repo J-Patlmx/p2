@@ -1,12 +1,12 @@
 #activityOnMarseilleSection {
-  background-color: white;
+  background-color: var(--colorWhite);
   margin-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
 }
 .activityOnMarseille {
   display: flex;
-  background-color: white;
+  background-color: var(--colorWhite);
   gap: 32px 32px;
 }
 #titleSectionAM {
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   padding-top: 16px;
   padding-left: 8px;
@@ -55,7 +55,6 @@
 .getOutMarseilleCard {
   box-shadow: var(--boxShadow);
   border-radius: 16px;
-  /* border: 2px solid transparent; */
 }
 .getOutMarseilleCard:hover {
   transform: scale(1.01);
@@ -64,7 +63,6 @@
 .getOutMarseilleCardSpace {
   margin-bottom: 32px;
 }
-/* test */
 
 .marseilleActivitiesCardImg1 {
   height: 400px;

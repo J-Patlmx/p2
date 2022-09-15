@@ -4,8 +4,6 @@
 @import url(accomodation.css);
 @import url(popularRoom.css);
 @import url(footer.css);
-@import url(mediaQueriesMobil.css);
-@import url(mediaQueriesTablette.css);
 @import url(activitiesMarseille.css);
 
 * {
@@ -34,11 +32,9 @@ a {
 /* SKULLETOR */
 
 header {
-  max-width: auto;
   margin: auto;
 }
 main {
-  max-width: auto;
   margin: auto;
   padding-left: 32px;
   padding-right: 32px;
@@ -46,10 +42,8 @@ main {
 #accomodationANDpopularSection {
   display: flex;
   gap: 32px;
-
   margin-bottom: 32px;
 }
 footer {
-  max-width: auto;
   margin: auto;
 }
