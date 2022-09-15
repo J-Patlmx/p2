@@ -85,15 +85,14 @@
     flex-direction: column;
     width: auto;
   }
+  /* height: 240px; */
   .onlyOneImgCard {
-    /* height: 240px; */
     margin-bottom: 0;
     padding-bottom: 0;
     max-width: 100%;
     max-height: 100%;
   }
   doubleImgCard {
-    /* height: 240px; */
     margin-bottom: 0;
     padding-bottom: 0;
     max-width: 100%;
@@ -108,7 +107,7 @@
     height: 240px;
     width: 100%;
   }
-  /* marseilleActivitiesCardImg {
+  /* .marseilleActivitiesCardImg {
     height: 240px;
     width: 100%;
   } */

@@ -20,7 +20,11 @@ POPULAIRES DROITE
   margin-bottom: 32px;
   justify-content: space-between;
 }
-
+.fa-starTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #popularRoomCards {
   display: flex;
   justify-content: space-around;

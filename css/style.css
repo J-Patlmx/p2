@@ -37,7 +37,6 @@ header {
   max-width: auto;
   margin: auto;
 }
-
 main {
   max-width: auto;
   margin: auto;
@@ -46,8 +45,8 @@ main {
 }
 #accomodationANDpopularSection {
   display: flex;
-  /* gap: 64px */
   gap: 32px;
+
   margin-bottom: 32px;
 }
 footer {
