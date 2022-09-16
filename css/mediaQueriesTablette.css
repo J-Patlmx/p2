@@ -2,13 +2,24 @@
   #accomodationANDpopularSection {
     flex-direction: column;
   }
-
   #rightSide {
     order: -1;
     width: 100%;
   }
-
   #leftSide {
     background-color: var(--colorLightBlue);
+  }
+  .aJamaisDesTricheurs {
+    flex-direction: column;
+  }
+  .onlyOneImgCard img {
+    height: 180px;
+
+    object-position: center;
+  }
+  .doubleImgCard img {
+    height: 180px;
+
+    object-position: center;
   }
 }

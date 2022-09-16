@@ -4,24 +4,25 @@
   padding-left: 16px;
   padding-right: 16px;
 }
-.activityOnMarseille {
+/* .activityOnMarseille {
   display: flex;
   background-color: var(--colorWhite);
   gap: 32px 32px;
-}
+} */
 #titleSectionAM {
   width: 100%;
   margin-bottom: 32px;
 }
 
 .h4Activities {
-  display: flex;
-  align-items: center;
-  justify-content: left;
+  /* display: flex; */
+  width: 100%;
+  /* align-items: center;
+  justify-content: left; */
   font-size: 14px;
   font-weight: bolder;
+  padding-left: 6px;
   padding-top: 16px;
-  padding-left: 8px;
   padding-bottom: 16px;
 }
 .aJamaisDesTricheurs {
@@ -63,41 +64,33 @@
 .getOutMarseilleCardSpace {
   margin-bottom: 32px;
 }
-
+.marseilleActivitiesCardImg {
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+}
 .marseilleActivitiesCardImg1 {
   height: 400px;
   width: 312px;
-  border-radius: 16px 16px 0 0;
-  object-fit: cover;
 }
 .marseilleActivitiesCardImg2 {
   height: 176px;
   width: 304px;
-  object-fit: cover;
-  border-radius: 16px 16px 0 0;
 }
 .marseilleActivitiesCardImg3 {
   height: 136px;
   width: 304px;
-  object-fit: cover;
-  border-radius: 16px 16px 0 0;
 }
 
 .marseilleActivitiesCardImg4 {
   height: 400px;
   width: 312px;
-  border-radius: 16px 16px 0 0;
 }
 
 .marseilleActivitiesCardImg5 {
   height: 136px;
   width: 304px;
-  object-fit: cover;
-  border-radius: 16px 16px 0 0;
 }
 .marseilleActivitiesCardImg6 {
   height: 176px;
   width: 304px;
-  object-fit: cover;
-  border-radius: 16px 16px 0 0;
 }

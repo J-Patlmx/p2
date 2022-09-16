@@ -29,11 +29,17 @@
   }
 
   /*SEARCH BAR*/
+  .searchForm * {
+    padding: 16px 16px;
+  }
   .searchForm {
-    padding-left: 10px;
+    padding-left: 16px;
+  }
+  .searchForm i {
+    border: 2.2px solid var(--colorGray);
   }
   .destination {
-    width: 200px;
+    width: 240px;
   }
   i.fa-search {
     display: block;
@@ -42,7 +48,7 @@
     border-color: var(--colorBlue);
     font-weight: bold;
     border-radius: 16px;
-    margin-left: -10px;
+    margin-left: -16px;
   }
 
   .searchForm .vaChercher {
@@ -110,7 +116,6 @@
   .roomCard {
     flex-grow: 1;
     max-width: 100%;
-    max-height: 100%;
   }
   .roomCardImg {
     width: 100%;
@@ -125,19 +130,6 @@
   .aJamaisDesTricheurs {
     flex-direction: column;
     width: auto;
-  }
-
-  .onlyOneImgCard {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .doubleImgCard {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    max-width: 100%;
-    max-height: 100%;
   }
 
   .onlyOneImgCard img {
@@ -156,9 +148,9 @@
   }
   .footerSection {
     flex-direction: column;
+    padding-right: 0;
   }
   .navFooter {
-    width: 100%;
     padding: 16px;
   }
   .h4NavFooter {
