@@ -22,4 +22,7 @@
 
     object-position: center;
   }
+  .footerSection {
+    padding-bottom: 16px;
+  }
 }
