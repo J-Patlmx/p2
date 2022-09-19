@@ -11,7 +11,7 @@
   background-color: var(--colorGray);
   border-radius: 16px 0 0 16px;
   text-align: center;
-  border: 2px solid var(--colorGray);
+  border: 4px solid var(--colorGray);
 }
 .searchForm input {
   border: 1px solid var(--colorGray);
@@ -30,6 +30,7 @@
   border-color: var(--colorBlue);
   font-weight: bold;
   border-radius: 0 16px 16px 0;
+  padding: 20px;
 }
 .fa-search {
   display: none;
