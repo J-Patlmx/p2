@@ -9,17 +9,19 @@
   #leftSide {
     background-color: var(--colorLightBlue);
   }
+  .h3Adjustement {
+    line-height: 40px;
+    font-size: 20px;
+  }
   .aJamaisDesTricheurs {
     flex-direction: column;
   }
   .onlyOneImgCard img {
     height: 180px;
-
     object-position: center;
   }
   .doubleImgCard img {
     height: 180px;
-
     object-position: center;
   }
   .footerSection {

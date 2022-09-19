@@ -7,7 +7,7 @@
     width: 100%;
   }
   #subMenu a {
-    flex-basis: 50%;
+    flex: 1;
     text-align: center;
     border-bottom: 3px solid var(--colorGray);
   }
@@ -27,7 +27,6 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-
   /*SEARCH BAR*/
   .searchForm * {
     padding: 16px 16px;
@@ -98,9 +97,7 @@
     padding-top: 20px;
     margin-bottom: 0;
   }
-  .popularRoomCard {
-    flex-grow: 1;
-  }
+
   /* ACCOMODATION ROOM SECTION */
 
   #leftSide {
@@ -114,7 +111,6 @@
     padding-left: 4px;
   }
   .roomCard {
-    flex-grow: 1;
     max-width: 100%;
   }
   .roomCardImg {
