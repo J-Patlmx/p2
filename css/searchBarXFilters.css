@@ -28,7 +28,7 @@
   background-color: var(--colorBlue);
   color: var(--colorWhite);
   border-color: var(--colorBlue);
-  font-weight: bold;
+  font-weight: 400;
   border-radius: 0 16px 16px 0;
   padding: 20px;
 }
