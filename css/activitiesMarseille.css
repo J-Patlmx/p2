@@ -4,21 +4,14 @@
   padding-left: 16px;
   padding-right: 16px;
 }
-/* .activityOnMarseille {
-  display: flex;
-  background-color: var(--colorWhite);
-  gap: 32px 32px;
-} */
+
 #titleSectionAM {
   width: 100%;
   margin-bottom: 32px;
 }
 
 .h4Activities {
-  /* display: flex; */
   width: 100%;
-  /* align-items: center;
-  justify-content: left; */
   font-size: 14px;
   font-weight: bolder;
   padding-left: 6px;

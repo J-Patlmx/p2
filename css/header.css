@@ -1,23 +1,20 @@
 #logoBooki {
-  margin-right: auto; /* marge a droite automatique */
+  margin-right: auto;
   padding: 0 24px;
   width: 160px;
 }
-
 #navHeader {
-  /* stylisation de mon menu de navigation */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-
 #navHeader a {
-  padding: 24px; /* ajoute une marge interne entre chaque a de ma navigation */
-  border-top: 2px solid transparent; /* evite le decalage au survol */
+  padding: 24px;
+  border-top: 2px solid transparent;
 }
 #navHeader a:hover {
-  border-top: 2px solid var(--colorBlue); /* cree une ligne bleu au survol du menu */
+  border-top: 2px solid var(--colorBlue);
   color: var(--colorBlue);
 }
 #subMenu {

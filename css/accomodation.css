@@ -1,6 +1,4 @@
-/* 
-HÉBERGEMENT GAUCHE
-*/
+/* HÉBERGEMENT GAUCHE */
 #leftSide {
   flex: 2;
   background-color: var(--colorGray);
