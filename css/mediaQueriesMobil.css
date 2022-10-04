@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+  header {
+    padding-right: 0;
+  }
+
   #logoBooki {
     margin: auto;
   }
@@ -109,18 +113,22 @@
     padding-top: 0;
     padding-left: 4px;
   }
+
   .roomCard {
     max-width: 100%;
+    width: 100%;
   }
   .roomCardImg {
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
   }
 
   /* ACTIVITIES ON MARSEILLE */
   #activityOnMarseilleSection {
     margin-top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .aJamaisDesTricheurs {
     flex-direction: column;
