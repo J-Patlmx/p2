@@ -1,12 +1,11 @@
 @media screen and (max-width: 768px) {
   header {
     padding-right: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 
-  #logoBooki {
-    margin: auto;
-  }
-  #subMenu {
+  /* #subMenu {
     width: 100%;
   }
   #subMenu a {
@@ -14,11 +13,35 @@
     text-align: center;
     border-bottom: 3px solid var(--colorGray);
   }
-
+  
   #subMenu a:hover {
     border-bottom: 3px solid var(--colorBlue);
     border-top-color: transparent;
+  } */
+
+  /* .subMenu {
+    width: 100%;
+  } */
+  #logoBooki {
+    margin: auto;
   }
+  #navHeader {
+    width: 100%;
+  }
+  #navHeader a:hover {
+    border-top: none;
+  }
+
+  .subMenu {
+    flex: 1;
+    border-bottom: 3px solid var(--colorGray);
+    justify-content: space-around;
+  }
+
+  .subMenu:hover {
+    border-bottom: 3px solid var(--colorBlue);
+  }
+
   main {
     padding-left: 0;
     padding-right: 0;
@@ -39,6 +62,7 @@
   }
   .searchForm i {
     border: 2.2px solid var(--colorGray);
+    cursor: pointer;
   }
   .destination {
     width: 240px;

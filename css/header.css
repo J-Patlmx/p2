@@ -17,6 +17,9 @@
   border-top: 2px solid var(--colorBlue);
   color: var(--colorBlue);
 }
-#subMenu {
+/* #subMenu {
+  display: flex;
+} */
+.subMenu {
   display: flex;
 }

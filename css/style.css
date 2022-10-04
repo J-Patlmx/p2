@@ -30,6 +30,9 @@ a {
 header {
   margin: auto;
   padding-right: 32px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 main {
   margin: auto;
