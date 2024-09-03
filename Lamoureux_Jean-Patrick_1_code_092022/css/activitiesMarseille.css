@@ -1,0 +1,87 @@
+#activityOnMarseilleSection {
+  background-color: var(--colorWhite);
+  margin-bottom: 32px;
+}
+
+#titleSectionAM {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.h4Activities {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-left: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.aJamaisDesTricheurs {
+  display: flex;
+  flex: 4;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.onlyOneImgCard {
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.onlyOneImgCard img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+
+.doubleImgCard {
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.doubleImgCard img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+.getOutMarseilleCard {
+  box-shadow: var(--boxShadow);
+  border-radius: 16px;
+}
+.getOutMarseilleCard:hover {
+  transform: scale(1.01);
+  cursor: grab;
+}
+.getOutMarseilleCardSpace {
+  margin-bottom: 32px;
+}
+.marseilleActivitiesCardImg {
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+}
+.marseilleActivitiesCardImg1 {
+  height: 400px;
+  width: 312px;
+}
+.marseilleActivitiesCardImg2 {
+  height: 176px;
+  width: 304px;
+}
+.marseilleActivitiesCardImg3 {
+  height: 136px;
+  width: 304px;
+}
+
+.marseilleActivitiesCardImg4 {
+  height: 400px;
+  width: 312px;
+}
+
+.marseilleActivitiesCardImg5 {
+  height: 136px;
+  width: 304px;
+}
+.marseilleActivitiesCardImg6 {
+  height: 176px;
+  width: 304px;
+}

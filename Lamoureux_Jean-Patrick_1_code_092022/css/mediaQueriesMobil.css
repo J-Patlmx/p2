@@ -1,0 +1,186 @@
+@media screen and (max-width: 768px) {
+  header {
+    padding-right: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  /* #subMenu {
+    width: 100%;
+  }
+  #subMenu a {
+    flex: 1;
+    text-align: center;
+    border-bottom: 3px solid var(--colorGray);
+  }
+  
+  #subMenu a:hover {
+    border-bottom: 3px solid var(--colorBlue);
+    border-top-color: transparent;
+  } */
+
+  /* .subMenu {
+    width: 100%;
+  } */
+  #logoBooki {
+    margin: auto;
+  }
+  #navHeader {
+    width: 100%;
+  }
+  #navHeader a:hover {
+    border-top: none;
+  }
+
+  .subMenu {
+    flex: 1;
+    border-bottom: 3px solid var(--colorGray);
+    justify-content: space-around;
+  }
+
+  .subMenu:hover {
+    border-bottom: 3px solid var(--colorBlue);
+  }
+
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #mainTitle {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  /*SEARCH BAR*/
+  .searchForm * {
+    padding: 16px 16px;
+  }
+  .searchForm {
+    padding-left: 16px;
+  }
+  .searchForm i {
+    border: 2.2px solid var(--colorGray);
+    cursor: pointer;
+  }
+  .destination {
+    width: 240px;
+  }
+  i.fa-search {
+    display: block;
+    background-color: var(--colorBlue);
+    color: var(--colorWhite);
+    border-color: var(--colorBlue);
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: -16px;
+  }
+
+  .searchForm .vaChercher {
+    display: none;
+  }
+  .filter-list {
+    padding-left: 16px;
+    padding-right: 0px;
+  }
+  #h2Filters {
+    width: 100%;
+  }
+  .filter .fas {
+    font-size: 20px;
+  }
+  .filter {
+    font-size: 14px;
+  }
+
+  .searchResult {
+    padding-left: 16px;
+    padding-right: 0px;
+  }
+  .fas.fa-info {
+    width: 32px;
+    height: 24px;
+  }
+  #catchPhrase {
+    font-size: 16px;
+  }
+  /* SEARCH RESULT */
+  #accomodationANDpopularSection {
+    flex-direction: column;
+  }
+
+  /* POPULAR ROOM SECTION */
+  #rightSide {
+    order: -1;
+    width: 100%;
+    border-radius: 0;
+    padding-bottom: 16px;
+  }
+  #titlePopular {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  /* ACCOMODATION ROOM SECTION */
+
+  #leftSide {
+    background-color: var(--colorWhite);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #titleAccomodation {
+    font-size: 16px;
+    padding-top: 0;
+    padding-left: 4px;
+  }
+
+  .roomCard {
+    max-width: 100%;
+    width: 100%;
+  }
+  .roomCardImg {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* ACTIVITIES ON MARSEILLE */
+  #activityOnMarseilleSection {
+    margin-top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .aJamaisDesTricheurs {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .onlyOneImgCard img {
+    height: 130px;
+    width: 100%;
+  }
+  .doubleImgCard img {
+    height: 130px;
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background-color: var(--colorGray);
+  }
+  .footerSection {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .navFooter {
+    padding: 16px;
+  }
+  .h4NavFooter {
+    padding-top: 10px;
+  }
+}

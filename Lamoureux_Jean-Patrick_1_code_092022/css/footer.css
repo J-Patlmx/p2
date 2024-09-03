@@ -1,0 +1,34 @@
+/* footer */
+
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--colorGray);
+  padding-bottom: 16px;
+  padding-right: 180px;
+}
+.liNavFooter {
+  list-style-type: none;
+  padding-top: 16px;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 34px;
+}
+.ulNavFooter {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-right: 120px;
+}
+.h4NavFooter {
+  padding-top: 32px;
+}
+.aLiNavFooter:hover {
+  color: var(--colorBlue);
+}

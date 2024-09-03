@@ -1,0 +1,91 @@
+/* HÉBERGEMENT POPULAR DROITE */
+#rightSide {
+  flex: 1;
+  background-color: var(--colorGray);
+  flex-wrap: wrap;
+  align-content: space-between;
+  border-radius: 16px;
+}
+#titlePopular {
+  display: flex;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 48px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+.fa-starTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#popularRoomCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 16px;
+}
+
+.popularRoomCard {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--colorWhite);
+  border-radius: 16px;
+  box-shadow: var(--boxShadow);
+  height: 120px;
+  padding: 4px;
+  flex: 1;
+}
+#popularRoomCards {
+  display: flex;
+  flex-direction: column;
+}
+.imgPopularRoomCard {
+  border-radius: 16px 0 0 16px;
+  display: flex;
+  float: left;
+  width: 39%;
+  height: 144px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.infoPopularRoomCard {
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+}
+
+/* T1. T1. T1. T1. T1T1. T1. T1T1. */
+
+/* ***** popular room Stars ***** */
+
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconBlue {
+  color: var(--colorBlue);
+}
+.popularRoomCard .infoPopularRoomCard .stars .ratingIconGrey {
+  color: lightslategrey;
+}
+/*Animation HOVER*/
+.popularRoomCard:hover {
+  transform: scale(1.02);
+  cursor: grab;
+}
+
+.popularA {
+  display: flex;
+  width: 100%;
+}
+.popularA img {
+  flex: 1;
+}
+.infoPopularRoomCard {
+  flex: 2;
+}
